@@ -10208,6 +10208,12 @@ public final class Settings {
         public static final int RING_HOME_BUTTON_BEHAVIOR_DEFAULT =
                 RING_HOME_BUTTON_BEHAVIOR_DO_NOTHING;
 
+       /**
+         * Whether to show FOD on doze or AOD
+         * @hide
+         */
+        public static final String FOD_ON_DOZE = "fod_on_doze";
+
         /**
          * Whether to show the brightness slider in quick settings panel.
          * @hide
